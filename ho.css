@@ -1,29 +1,7 @@
-header, footer {
-    text-align: center;
-    background-color: azure;
-        
+h1 {
+    background-color: aquamarine;
 }
 
 img.mainpic {
-    height: 200px;
-    }
-
-div.intro {
-    background-color: beige;
-}
-
-nav {
-    background-color: antiquewhite;
-}
-
-img.secondpic {
-    height: 100px;
-}
-
-.words {
-    text-align: center;
-}
-
-.cat {
-    font-size: large;
+    height: 10px;
 }
