@@ -41,29 +41,37 @@ h3 {
 }
 
 .gall {
-        margin-top: 20;
+        margin-top: 30;
 }
 
-p.howboudah { 
-            position: relative;
-            text-align: left;
+div.blank {
+        position: relative;
+        height: 0;
+        margin-bottom: 20;
+}
+
+
+p.howboudah {
+            text-align: center;
             font-family: "Helvetica Neue", sans-serif;
             font-style: normal;
-            font-weight: 200;
+            font-weight: 100;
             letter-spacing: 1px;
-            font-size: 15px;
+            font-size: 25px;
+            margin-top: 50;
+            margin-left: 100;
+            margin-right: 100;
 }
 
 div.mailer {
-        position: relative;
-        margin-bottom: 0;
+            margin-top: 40;
         
 }
 
 form {
         /* Just to center the form on the page */
         margin: 0 auto;
-        width: 350px;
+        width: 500px;
         /* To see the outline of the form */
         padding: 1em;
         border: 0.5px solid #CCC;
@@ -81,7 +89,7 @@ label {
         text-align: left;
         font: 1em "Helvetica Neue", sans-serif;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 300;
       }
       
 
@@ -91,7 +99,7 @@ input, textarea {
         /* To give the same size to all text fields */
         width: 300px;
         box-sizing: border-box; /* To harmonize the look & feel of text field border */
-        border: 1px solid #999;
+        border: .5px solid #999;
         border-radius: 0.5em;
       }
       
@@ -113,15 +121,27 @@ textarea {
 .button {
         /* To position the buttons to the same position of the text fields */
         padding-left: 170px;
-        font: 1em "Helvetica Neue", sans-serif;
+        font: .9em "Helvetica Neue", sans-serif;
         /* same size as the label elements */
       }
       button {
         /* This extra margin represent roughly the same space as the space between the labels and their text fields ori .5em*/ 
       }
 
-
-img.mainpic {
-    height: 10px;
+.foot {
+        margin-top: 100;
+        height: 50;
+        bottom: 0;
+        background-color: black;
 }
 
+.footer {
+        margin-top: 15;
+        font-family: "Helvetica Neue", sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        letter-spacing: 1px;
+        color: lightgrey;
+        text-align: center;
+        font-size: 15;
+}
